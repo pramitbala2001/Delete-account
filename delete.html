@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BazaarLab — Account &amp; Data Deletion</title>
+  <style>
+    :root {
+      color-scheme: dark light;
+      --bg: #0d1117;
+      --card: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #9da7b3;
+      --accent: #387ed1;
+      --danger: #f85149;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f6f8fa;
+        --card: #ffffff;
+        --border: #d0d7de;
+        --text: #1f2328;
+        --muted: #57606a;
+        --accent: #0969da;
+        --danger: #cf222e;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container { max-width: 820px; margin: 0 auto; padding: 32px 20px 64px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px;
+      margin-bottom: 20px;
+    }
+    h1 { margin: 0 0 8px; font-size: 1.85rem; }
+    h2 { margin: 26px 0 10px; font-size: 1.18rem; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+    p, li { color: var(--muted); font-size: 0.98rem; }
+    strong { color: var(--text); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .nav { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 18px; font-size: 0.92rem; }
+    .badge {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(248, 81, 73, 0.16);
+      color: var(--danger);
+      margin-bottom: 12px;
+    }
+    footer { text-align: center; color: var(--muted); font-size: 0.88rem; margin-top: 28px; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <nav class="nav">
+      <a href="index.html">Legal Home</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="delete-account.html"><strong>Account Deletion</strong></a>
+      <a href="terms-and-disclaimer.html">Risk Disclaimer &amp; Terms</a>
+    </nav>
+
+    <article class="card">
+      <span class="badge">SELF-SERVICE ACCOUNT &amp; DATA DELETION</span>
+      <h1>Delete Your BazaarLab Account &amp; Data</h1>
+      <p>
+        <strong>App Name:</strong> BazaarLab (<code>com.bazaarlab</code>)<br />
+        <strong>Developer:</strong> NPL Studios
+      </p>
+
+      <h2>Option 1: Instant In-App Deletion (Recommended)</h2>
+      <p>You can permanently delete your BazaarLab account and all associated account and local data immediately from inside the app:</p>
+      <ol>
+        <li>Open the <strong>BazaarLab</strong> Android app and sign in to your account.</li>
+        <li>Open the <strong>Funds</strong> tab (bottom navigation bar).</li>
+        <li>Scroll to the <strong>Legal, Privacy &amp; Disclosure</strong> section.</li>
+        <li>Tap <strong>Delete Account &amp; Data</strong>.</li>
+        <li>Confirm by tapping <strong>Delete Forever</strong>. (If your login session is older than a few minutes, the app will prompt you to Sign Out and sign back in first for security.)</li>
+      </ol>
+
+      <h2>Option 2: Delete On-Device Paper Trading Data Only</h2>
+      <p>
+        If you want to keep your account login but erase local holdings, positions, orders, watchlists, trade history, price alerts, and preferences on your device, open <strong>Funds &rarr; Legal, Privacy &amp; Disclosure &rarr; Erase All On-Device App Data</strong>.
+      </p>
+
+      <h2>Option 3: Request Deletion Without the App</h2>
+      <p>
+        If you have already uninstalled BazaarLab and want us to delete your account and associated records, send an email from the address registered with your BazaarLab account to:
+      </p>
+      <p>
+        <strong>Email:</strong> <a href="mailto:info.nplstudios@gmail.com?subject=BazaarLab%20Account%20Deletion%20Request">info.nplstudios@gmail.com</a><br />
+        <strong>Subject:</strong> <code>BazaarLab Account Deletion Request</code>
+      </p>
+      <p>Verified email deletion requests are completed within <strong>7 business days</strong>.</p>
+
+      <h2>What Data Is Deleted</h2>
+      <ul>
+        <li><strong>Account Credentials &amp; Profile:</strong> Your sign-in profile, account identifier, email address, display name, virtual balance preferences, and notification token.</li>
+        <li><strong>Inbox Notices &amp; Support Tickets:</strong> All personal inbox messages and all customer support tickets and chat messages linked to your account.</li>
+        <li><strong>On-Device Records (In-App Flow):</strong> All locally stored orders, positions, holdings, custom watchlists, trade history, price alerts, and app preferences.</li>
+      </ul>
+
+      <h2>Data Retention</h2>
+      <p>
+        Account deletion is <strong>permanent and immediate</strong> when performed in-app. No personal profile, support history, or virtual trading data is retained after deletion is completed.
+      </p>
+    </article>
+
+    <footer>
+      &copy; 2026 NPL Studios &bull; BazaarLab Paper Trading Simulator
+    </footer>
+  </main>
+</body>
+</html>
